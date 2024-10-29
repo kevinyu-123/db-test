@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7737c39a-ac18-4903-a7b8-e303ec6b0d10" name="Changes" comment="" />
+    <list default="true" id="7737c39a-ac18-4903-a7b8-e303ec6b0d10" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9b38609-70ac-435f-b0b6-206a79a41692.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9b38609-70ac-435f-b0b6-206a79a41692.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kevinyu-123"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kevinyu-123/db-version-control-test.git",
+    "accountId": "6bf4c5bf-8763-4b24-ba36-dfcac922bce2"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -24,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/r114",
-    "settings.editor.selected.configurable": "vcs.log"
+    "settings.editor.selected.configurable": "vcs.Git"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -43,5 +58,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
