@@ -955,7 +955,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="277" parent="1" name="prac">
-      <LastIntrospectionLocalTimestamp>2024-10-30.07:15:42</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-10-30.07:20:49</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="278" parent="1" name="sys">
@@ -1037,7 +1037,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <trigger id="295" parent="285" name="test_trigger">
       <Definer>root@localhost</Definer>
       <Events>I</Events>
-      <SourceTextLength>105</SourceTextLength>
+      <SourceTextLength>90</SourceTextLength>
     </trigger>
     <column id="296" parent="286" name="id">
       <AutoIncrement>4</AutoIncrement>
