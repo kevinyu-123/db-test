@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7737c39a-ac18-4903-a7b8-e303ec6b0d10" name="Changes" comment="트리거 테스트 1">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9b38609-70ac-435f-b0b6-206a79a41692.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9b38609-70ac-435f-b0b6-206a79a41692.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9b38609-70ac-435f-b0b6-206a79a41692/storage_v2/_src_/schema/prac.pKE0AA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9b38609-70ac-435f-b0b6-206a79a41692/storage_v2/_src_/schema/prac.pKE0AA.zip" afterDir="false" />
+    <list default="true" id="7737c39a-ac18-4903-a7b8-e303ec6b0d10" name="Changes" comment="마리아db 추가2">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/r114",
-    "settings.editor.selected.configurable": "database.query.execution"
+    "settings.editor.selected.configurable": "vcs.Git"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -74,7 +73,9 @@
     <MESSAGE value="프로시저 수정 테스트4 (컬럼 추가)" />
     <MESSAGE value="프로시저 수정 테스트5 (컬럼 삭제)" />
     <MESSAGE value="트리거 테스트 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="트리거 테스트 1" />
+    <MESSAGE value="마리아db 추가" />
+    <MESSAGE value="마리아db 추가2" />
+    <option name="LAST_COMMIT_MESSAGE" value="마리아db 추가2" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
