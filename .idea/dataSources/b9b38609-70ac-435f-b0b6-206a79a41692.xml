@@ -955,7 +955,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="277" parent="1" name="prac">
-      <LastIntrospectionLocalTimestamp>2024-10-30.00:16:55</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-10-30.07:06:42</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="278" parent="1" name="sys">
@@ -988,7 +988,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <routine id="284" parent="277" name="GetEmployeeByRole">
       <Definer>root@localhost</Definer>
       <RoutineKind>procedure</RoutineKind>
-      <SourceTextLength>65</SourceTextLength>
+      <SourceTextLength>70</SourceTextLength>
     </routine>
     <table id="285" parent="277" name="TestEntity">
       <Engine>InnoDB</Engine>
@@ -1002,12 +1002,12 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </argument>
-    <argument id="288" parent="284" name="emp_id">
+    <argument id="288" parent="284" name="user_role">
       <Position>1</Position>
-      <StoredType>int|0s</StoredType>
+      <StoredType>varchar(40)|0s</StoredType>
     </argument>
     <column id="289" parent="285" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>2</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
@@ -1020,40 +1020,44 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>3</Position>
       <StoredType>varchar(50)|0s</StoredType>
     </column>
-    <index id="292" parent="285" name="PRIMARY">
+    <column id="292" parent="285" name="age">
+      <Position>4</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <index id="293" parent="285" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="293" parent="285" name="PRIMARY">
+    <key id="294" parent="285" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="294" parent="286" name="id">
-      <AutoIncrement>2</AutoIncrement>
+    <column id="295" parent="286" name="id">
+      <AutoIncrement>4</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="295" parent="286" name="password">
+    <column id="296" parent="286" name="password">
       <Position>2</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="296" parent="286" name="role">
+    <column id="297" parent="286" name="role">
       <Position>3</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="297" parent="286" name="username">
+    <column id="298" parent="286" name="username">
       <Position>4</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <index id="298" parent="286" name="PRIMARY">
+    <index id="299" parent="286" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="299" parent="286" name="PRIMARY">
+    <key id="300" parent="286" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
