@@ -955,7 +955,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="277" parent="1" name="prac">
-      <LastIntrospectionLocalTimestamp>2024-10-30.07:10:44</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-10-30.07:15:42</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="278" parent="1" name="sys">
@@ -1034,30 +1034,35 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="295" parent="286" name="id">
+    <trigger id="295" parent="285" name="test_trigger">
+      <Definer>root@localhost</Definer>
+      <Events>I</Events>
+      <SourceTextLength>105</SourceTextLength>
+    </trigger>
+    <column id="296" parent="286" name="id">
       <AutoIncrement>4</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="296" parent="286" name="password">
+    <column id="297" parent="286" name="password">
       <Position>2</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="297" parent="286" name="role">
+    <column id="298" parent="286" name="role">
       <Position>3</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="298" parent="286" name="username">
+    <column id="299" parent="286" name="username">
       <Position>4</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <index id="299" parent="286" name="PRIMARY">
+    <index id="300" parent="286" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="300" parent="286" name="PRIMARY">
+    <key id="301" parent="286" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
